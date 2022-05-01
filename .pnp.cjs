@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/jest-dom", "npm:5.16.4"],\
             ["@testing-library/react", "virtual:3400f34c4999b7283ab93fc36f453d0499aeda90afb2f5e15644205bbe8c017e7097f70f3707936b1c1e90195c92ea99a915e75295bdd1851e3228ab712e08a5#npm:13.1.1"],\
             ["@testing-library/user-event", "virtual:3400f34c4999b7283ab93fc36f453d0499aeda90afb2f5e15644205bbe8c017e7097f70f3707936b1c1e90195c92ea99a915e75295bdd1851e3228ab712e08a5#npm:13.5.0"],\
+            ["axios", "npm:0.27.2"],\
             ["react", "npm:18.0.0"],\
             ["react-dom", "virtual:3400f34c4999b7283ab93fc36f453d0499aeda90afb2f5e15644205bbe8c017e7097f70f3707936b1c1e90195c92ea99a915e75295bdd1851e3228ab712e08a5#npm:18.0.0"],\
             ["react-scripts", "virtual:3400f34c4999b7283ab93fc36f453d0499aeda90afb2f5e15644205bbe8c017e7097f70f3707936b1c1e90195c92ea99a915e75295bdd1851e3228ab712e08a5#npm:5.0.1"],\
@@ -5266,6 +5267,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["axios", [\
+        ["npm:0.27.2", {\
+          "packageLocation": "./.yarn/cache/axios-npm-0.27.2-dbe3a48aea-38cb754046.zip/node_modules/axios/",\
+          "packageDependencies": [\
+            ["axios", "npm:0.27.2"],\
+            ["follow-redirects", "virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.14.9"],\
+            ["form-data", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["axobject-query", [\
         ["npm:2.2.0", {\
           "packageLocation": "./.yarn/cache/axobject-query-npm-2.2.0-6553738f52-96b8c7d807.zip/node_modules/axobject-query/",\
@@ -8365,10 +8377,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:a313c479c5c7e54d9ec8fbeeea69ff640f56b8989ea2dff42351a3fa5c4061fb80a52d8ede0f0826a181a216820c2d2c3f15da881e7fdf31cef1c446e42f0c45#npm:1.14.9", {\
-          "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-0b008d299e/0/cache/follow-redirects-npm-1.14.9-522f191631-f5982e0eb4.zip/node_modules/follow-redirects/",\
+        ["virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.14.9", {\
+          "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-fa3e988ba7/0/cache/follow-redirects-npm-1.14.9-522f191631-f5982e0eb4.zip/node_modules/follow-redirects/",\
           "packageDependencies": [\
-            ["follow-redirects", "virtual:a313c479c5c7e54d9ec8fbeeea69ff640f56b8989ea2dff42351a3fa5c4061fb80a52d8ede0f0826a181a216820c2d2c3f15da881e7fdf31cef1c446e42f0c45#npm:1.14.9"],\
+            ["follow-redirects", "virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.14.9"],\
             ["@types/debug", null],\
             ["debug", null]\
           ],\
@@ -8431,6 +8443,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/form-data-npm-3.0.1-d080d436e0-b019e8d35c.zip/node_modules/form-data/",\
           "packageDependencies": [\
             ["form-data", "npm:3.0.1"],\
+            ["asynckit", "npm:0.4.0"],\
+            ["combined-stream", "npm:1.0.8"],\
+            ["mime-types", "npm:2.1.35"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/form-data-npm-4.0.0-916facec2d-01135bf867.zip/node_modules/form-data/",\
+          "packageDependencies": [\
+            ["form-data", "npm:4.0.0"],\
             ["asynckit", "npm:0.4.0"],\
             ["combined-stream", "npm:1.0.8"],\
             ["mime-types", "npm:2.1.35"]\
@@ -8774,6 +8796,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/jest-dom", "npm:5.16.4"],\
             ["@testing-library/react", "virtual:3400f34c4999b7283ab93fc36f453d0499aeda90afb2f5e15644205bbe8c017e7097f70f3707936b1c1e90195c92ea99a915e75295bdd1851e3228ab712e08a5#npm:13.1.1"],\
             ["@testing-library/user-event", "virtual:3400f34c4999b7283ab93fc36f453d0499aeda90afb2f5e15644205bbe8c017e7097f70f3707936b1c1e90195c92ea99a915e75295bdd1851e3228ab712e08a5#npm:13.5.0"],\
+            ["axios", "npm:0.27.2"],\
             ["react", "npm:18.0.0"],\
             ["react-dom", "virtual:3400f34c4999b7283ab93fc36f453d0499aeda90afb2f5e15644205bbe8c017e7097f70f3707936b1c1e90195c92ea99a915e75295bdd1851e3228ab712e08a5#npm:18.0.0"],\
             ["react-scripts", "virtual:3400f34c4999b7283ab93fc36f453d0499aeda90afb2f5e15644205bbe8c017e7097f70f3707936b1c1e90195c92ea99a915e75295bdd1851e3228ab712e08a5#npm:5.0.1"],\
@@ -9046,7 +9069,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["http-proxy", "npm:1.18.1"],\
             ["eventemitter3", "npm:4.0.7"],\
-            ["follow-redirects", "virtual:a313c479c5c7e54d9ec8fbeeea69ff640f56b8989ea2dff42351a3fa5c4061fb80a52d8ede0f0826a181a216820c2d2c3f15da881e7fdf31cef1c446e42f0c45#npm:1.14.9"],\
+            ["follow-redirects", "virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.14.9"],\
             ["requires-port", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
