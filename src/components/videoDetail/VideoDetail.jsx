@@ -9,11 +9,12 @@ const VideoDetail = ({ video, video: { snippet } }) => {
       <iframe
         className={styles.video}
         type="text/html"
+        title="Youtube Video Player"
         width="100%"
         height="500px"
         src={`https://www.youtube.com/embed/${video.id}`}
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       >
       </iframe>
       <h2>{snippet.title}</h2>
